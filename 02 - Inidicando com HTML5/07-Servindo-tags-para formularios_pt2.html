@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Servindo tags para formulários Part 2</title>
+</head>
+<body>
+<main>
+    <form>
+        <fieldset>
+            <legend>Meu formulário</legend>
+            <p> Insira seu nome: <input type="text"></p>
+            <p> Insira seu e-mail: <input type="email"></p>
+            <p> Insira sua senha: <input type="password"></p>
+            <p>
+                Insira o sexo: <br>
+                <input name="sexo" type="radio"> Masculino <br>
+                <input name="sexo" type="radio"> Feminino
+            </p>
+
+            <p>
+                Qual sua tecnologia favorita <br>
+                <input type="checkbox"> HTML5 <br>
+                <input type="checkbox"> CSS3 <br>
+                <input type="checkbox"> PHP <br>
+                <input type="checkbox"> jQuery <br>
+            </p>
+
+            <p>Selecione um arquivo <input type="file"></p>
+
+            <p>Informe uma URL <input type="url"></p>
+
+            <p>
+                Selecione um curso <br>
+                <select>
+                    <optgroup label="Curso de Desenvolvimento">
+                        <option>HTML e CSS3 Essentials</option>
+                        <option>Git WorkFlow</option>
+                    </optgroup>
+                    <optgroup label="Curso de programação">
+                        <option>jQuery Essentials</option>
+                    </optgroup>
+                </select>
+            </p>
+
+            <p>Range: <input type="range"></p>
+            <p>Color Pick: <input type="color"></p>
+            <p>Date <input type="date"></p>
+            <p>Time <input type="time"></p>
+            <p>DateTime <input type="datetime-local"></p>
+            <p>Month <input type="month"></p>
+            <p>Week <input type="week"></p>
+
+            <button type="submit">Validar</button>
+            <button type="reset">Limpar</button>
+        </fieldset>
+    </form>
+
+</main>
+</body>
+</html>
