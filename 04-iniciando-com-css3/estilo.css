@@ -1,0 +1,19 @@
+/* identicadores
+. = classe
+# = ID
+
+SELETOR
+p h1 h2 ul li
+nome da classe/id
+Propriedades
+coor, text-aling, border, font-weight
+
+Valor
+green, blue, red, black,
+left, center, right
+ */
+
+p{
+    color: green;
+    text-align: center;
+}
