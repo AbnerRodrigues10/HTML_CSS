@@ -12,8 +12,20 @@ Valor
 green, blue, red, black,
 left, center, right
  */
+.main_blog{
+    width: 800px;
+    background-color: #CCC;
+    padding: 40px;
+    margin: 0 auto;
+}
 
-p{
-    color: green;
-    text-align: center;
+.main_blog article {
+    padding: 20px;
+    background-color: #333;
+    color: #FFF;
+    margin: 20px 0px;
+}
+
+.main_blog article h3{
+    color: red;
 }
