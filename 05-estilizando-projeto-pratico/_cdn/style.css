@@ -96,7 +96,7 @@
     padding: 0 20px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 .main_blog .main_blog_header{
@@ -107,4 +107,29 @@
     color: #333333;
     margin-bottom: 5px;
     font-size: 1.8em;
+}
+.main_blog  article{
+    opacity: 0.7;
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 30px;
+}
+.main_blog  article:hover{
+    opacity: 1;
+}
+.main_blog  article img{
+    width: 100%;
+}
+.main_blog  article p{
+    margin: 10px 0 ;
+}
+.main_blog  article .category{
+    font-size: 0.875em;
+    color: #D36833;
+}
+.main_blog  article h2{
+    font-weight: 300;
+    font-size: 1.2em;
+}
+.main_blog  article a{
+    color: #333;
 }
