@@ -561,6 +561,7 @@
 .main_footer_our_pages, .main_footer_links {
     flex-basis: 25%;
 }
+
 .main_footer_about {
     flex-basis: 50%;
 }
@@ -586,7 +587,7 @@
     text-decoration: underline;
 }
 
-.main_footer_rights{
+.main_footer_rights {
     width: 100%;
     text-align: center;
     padding: 20px 0;
