@@ -264,6 +264,7 @@
 
 .main_course_rating_contente {
     max-width: 1300px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -321,6 +322,7 @@
 
 .main_school_content {
     max-width: 1300px;
+    padding: 0 20px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -698,6 +700,20 @@
         padding: 10px 8px;
     }
 
+    .main_school_content_left {
+        flex-basis: 100%;
+    }
+
+    .main_school_content_right {
+        flex-basis: 200px;
+        max-width: 200px;
+        padding: 20px;
+    }
+
+    .main_school_address {
+        flex-basis: calc(100% - 220px);
+        margin: auto;
+    }
 }
 
 
@@ -727,6 +743,26 @@
         flex-basis: calc(33% - 10px);
     }
 
+    .main_course_rating_contente_title h2 {
+        font-size: 2em;
+    }
+
+.main_school_list > article{
+    flex-basis: 100%;
+    margin: 10px 0;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+}
+
+/*520px*/
+@media (max-width: 32em) {
+     .main_school_content_right{
+         display: none;
+     }
+    .main_school_address{
+        flex-basis: 100%;
+    }
 }
 
 /*640px */
@@ -739,17 +775,31 @@
         flex-wrap: wrap;
 
     }
+
+    .main_optin_content form input[type=text], .main_optin_content form input[type=email] {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+
+    .main_optin_content form button {
+        margin: 0 auto;
+        padding: 10px 8px;
+    }
+
+    .main_course_rating_contente_title h2 {
+        font-size: 1.6em;
+    }
+
+    .main_course_rating_contente_comment > header {
+        font-size: 1.2em;
+
+    }
+
+    .main_course_rating_contente_comment > article {
+        flex-basis: 100%;
+    }
 }
 
-.main_optin_content form input[type=text], .main_optin_content form input[type=email] {
-    flex-basis: 100%;
-    margin-bottom: 10px;
-}
-
-.main_optin_content form button {
-    margin: 0 auto;
-    padding: 10px 8px;
-}
 
 /*480px menu logo*/
 @media (max-width: 30em) {
@@ -769,7 +819,7 @@
         flex-basis: 100%;
     }
 
-    .main_course_content article{
+    .main_course_content article {
         flex-basis: calc(100% - 40px);
         margin: 10px 0;
     }
